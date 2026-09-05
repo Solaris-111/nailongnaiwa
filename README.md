@@ -89,4 +89,4 @@ python -c "from ultralytics import YOLO; YOLO('models/yolov8n_detection.pt').pre
 
 ## 致谢
 
-本项目 fork 自 [whxoperator/nailongnaiwa](https://github.com/whxoperator/nailongnaiwa)（奶龙 vs 奶蛙二分类），在其基础上扩展了奶蛋类别、多标签分类与目标检测，并重写了数据工具链。原项目的 `RandomCornerOcclusion`（针对水印的随机角遮挡）设计保留并沿用。
+本项目参考 [whxoperator/nailongnaiwa](https://github.com/whxoperator/nailongnaiwa)（奶龙 vs 奶蛙二分类）的思路，扩展了奶蛋类别、多标签分类与目标检测，并重写了数据工具链。原项目的 `RandomCornerOcclusion`（针对水印的随机角遮挡）设计保留并沿用。

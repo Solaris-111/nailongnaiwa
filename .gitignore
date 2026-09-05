@@ -26,3 +26,6 @@ logs/
 Thumbs.db
 .vscode/
 .idea/
+
+# 备份的原 git 历史（fork 历史，仅本地溯源，不入库）
+.git.bak/
