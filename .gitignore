@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 数据集（第三方 meme IP，不开源）
+nailong_naiwa_10_demo/
+nailong_naiwa_splits*/
+nailong_detection/images/
+nailong_detection/labels/
+multilabel_manifest.json
+
+# 训练输出（best.pt 已复制到 models/，runs/ 整个排除）
+runs/
+
+# ultralytics 预训练权重（可从官方下载，不入库）
+yolov8n.pt
+yolov8s.pt
+
+# 缓存 & 运行时
+.torch_cache/
+*.log
+logs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

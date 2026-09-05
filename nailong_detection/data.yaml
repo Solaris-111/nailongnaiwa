@@ -1,0 +1,8 @@
+path: D:/888/nailongnaiwa/nailong_detection
+train: images/train
+val: images/val
+
+names:
+  0: nailong
+  1: naiwa
+  2: naidan
